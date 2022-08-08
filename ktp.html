@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULIR KTP</title>
+</head>
+<body>
+    <h2 align="center">FORMULIR PERMOHONAN KARTU TANDA PENDUDUK (KTP) WARGA NEGARA INDONESIA</h2>
+    <form action="">
+        <table border="1" align="center" width="90%">
+            <tr>
+                <td><b>Perhatian : </b>
+                    <ol type="1">
+                        <li>Harap diisi dengan huruf cetak dan tinta hitam</li>
+                        <li>Untuk kolom pilihan, harap memberi tanda silang (X) pada kotak pilihan</li>
+                        <li>Setelah formulir ini diisi dan ditanda tangani, harap diserahkan kembali ke kantor Desa/Kelurahan</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+        <table border="0">
+            <br>
+            <tr>
+                <td>
+                    <label for="pp"><b>PEMERINTAH PROVINSI</b></label><br><br>
+                </td>
+                <td>
+                    <b>:</b><input type="text" name="pp" size="125px" maxlength="9"> <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pkk"><b>PEMERINTAH KABUPATEN/KOTA</b></label><br><br>
+                </td>
+                <td>
+                    <b>:</b><input type="text" name="pkk" size="125px" maxlength="9"> <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="kc"><b>KECAMATAN</b></label><br><br>
+                </td>
+                <td>
+                    <b>:</b><input type="text" name="kc" size="125px" maxlength="9"> <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="kd"><b>KELURAHAN/DESA</b></label><br><br>
+                </td>
+                <td>
+                    <b>:</b><input type="text" name="kd" size="125px" maxlength="9"> <br><br>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label for="p_ktp"><b>PERMOHONAN KTP</b></label>
+                </td>
+                <td>
+                    <input type="radio" name="permohonan_ktp" value="A"><b>A. BARU</b>
+                    <input type="radio" name="permohonan_ktp" value="B"><b>B. PERPANJANGAN</b>
+                    <input type="radio" name="permohonan_ktp" value="C"><b>C. PENGGANTIAN</b>
+                </td>
+            </tr>
+            
+            <table border="1">
+                <br>
+                <tr>
+                <th align="left">Nama Lengkap</th>
+                <th><input type="text" name="nl" size="125px" maxlength="9"></th>
+                <tr>
+                <th align="left">No KK</th>
+                <th><input type="text" name="nk" size="125px" maxlength="9"></th>
+                </tr>
+                <tr>
+                <th align="left">NIK</th>
+                <th><input type="text" name="nik" size="125px" maxlength="9"></th>
+                </tr>
+                <tr>
+                <th align="left">Alamat</th>
+                <th><input type="text" name="almt" size="125px" maxlength="9"></th>
+                </tr>
+            </table>
+            <table border="0" align="center">
+                <tr>
+                    <td>RT</td>
+                    <th><input type="text" name="rt" size="10px" maxlength="9"></th>
+                    <td>RW</td>
+                    <th><input type="text" name="rw" size="10px" maxlength="9"></th>
+                    <td>KODE POS</td>
+                    <th><input type="text" name="kodepos" size="10px" maxlength="9"></th>
+                </tr>
+            </table>
+            <table border="1">
+                <br>
+                <tr>
+                    <td><b>Pas Photo(2x3)</b></td>
+                    <td><b>Cap Jempol</b></td>
+                    <td><b>Specimen Tanda Tangan</b></td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <img src="photo/DSCF4642.JPG" width="120px" height="160px">
+                  </td>
+                  <td></td>
+                  <td></td>  
+                </tr>
+            </table>
+        </table>
+    </form>
+</body>
+</html>
